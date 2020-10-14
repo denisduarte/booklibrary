@@ -1,0 +1,32 @@
+{
+  "name": "booklibrary",
+  "version": "1.0.0",
+  "description": "An app to manage a simple book library",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisduarte/booklibrary.git"
+  },
+  "keywords": [
+    "book",
+    "library"
+  ],
+  "author": "Denis Rothier Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denisduarte/booklibrary/issues"
+  },
+  "homepage": "https://github.com/denisduarte/booklibrary#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "validator": "^13.1.17"
+  }
+}
